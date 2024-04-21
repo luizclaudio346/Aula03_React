@@ -1,0 +1,43 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --link-color: #646cff;
+  --hover-link-color: #535bf2;
+  --button-bg-color: #1a1a1a;
+  --card-bg-color: #2e7dbe; 
+  --card-border-radius: 12px; 
+  --card-padding: 30px; 
+  --card-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  --card-width: 50%; 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px; 
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--card-bg-color);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  box-shadow: var(--card-box-shadow);
+  margin: 10px;
+  width: var(--card-width); 
+  box-sizing: border-box;
+}
